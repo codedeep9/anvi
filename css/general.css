@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    /* 62.5 % = 1 rem = 10px */
+    font-size: 62.5%;
+    /* Overflow x is use to hidden element in right of the page to use animations */
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Rubik', sans-serif;
+    font-weight: 400;
+    color: #555;
+    line-height: 1;
+    background-color: #fefaee;
+    /* Overflow x is use to hidden element in right of the page to use animations */
+    overflow-x: hidden;
+
+}
+
+/**************************************/
+/*Resuable Components */
+.container{
+    max-width: 130rem;
+    padding: 2rem;
+    margin:3rem auto;
+}
+
+.primary-heading{
+    font-size: 5.2rem;
+    font-family: 'Bree Serif', serif;
+    letter-spacing: -0.5px;
+    line-height: 1.1;
+    margin-bottom: 4rem;
+    color: #333;
+}
+/* #primary-heading-special{
+    font-size: 5.2rem;
+    font-family: 'Bree Serif', serif;
+} */
+
+.secondary-heading{
+    font-size: 3.6rem;
+    line-height: 1.1;
+    color: #212529;
+    
+}
+
+.teritory-heading{
+    font-size: 2.4rem;
+    line-height: 1.6rem;
+    color: #212529;
+    margin:1rem;
+    
+}
+
+
+
+/**************************************/
+/* Reusable Button Components */
+
+.btn{
+    font-weight: 500;
+    padding: 1.2rem 2.4rem;
+    font-size: 2rem;
+    border-radius: 0.8rem;
+    text-decoration: none;
+    border: none;
+    transition: all 500ms;
+    color: white;
+    
+}
+
+.btn--1:link ,.btn--1:visited{
+    background-color:#e67e22 ;
+}
+
+
+.btn--1:hover,.btn--1:active{
+    background-color: #40c057;
+    font-size: 1.8rem;
+}
+
+.btn--2:link,.btn--2:active{
+    background-color:#333333 ;
+}
+
+.btn--2:hover,.btn--2:active{
+    background-color: #cccccc;
+    box-shadow: inset 0 0 0 3px #fff;
+    color: black;
+}
+
+/**************************************/

@@ -1,0 +1,654 @@
+/* brand logo css */
+.brand-logo {
+    height: 8rem;
+    width: 14rem;
+    object-fit: fill;
+}
+
+/**************************************/
+/*Navigation Section */
+.main-nav {
+
+    display: flex;
+    gap: 6.4rem;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+    color: #080808;
+    font-size: 2rem;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 500;
+    transition: all 0.3s;
+
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+    color: #fb9d4b;
+    text-decoration: underline;
+    transform: scale(1.05) translateZ(0);
+
+}
+
+
+.main-nav-link.cta-main-nav:link,
+.main-nav-link.cta-main-nav:visited{
+    padding: 1.2rem 2.4rem;
+    background-color: #e67e22;
+    color: white;
+    border-radius: 6px;
+    transition: all 1s;
+}
+
+.main-nav-link.cta-main-nav:hover,
+.main-nav-link.cta-main-nav:active{
+    
+    background-color: #40c057;
+    font-size: 1.8rem;
+    
+}
+
+.btn-menu{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-menu ion-icon{
+    font-size: 4.4rem;
+    display: none;
+}
+
+/* header section */
+
+/* Only applied when viewport reaches featured in section */
+.sticky header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 10rem;
+    z-index: 1000;
+    padding: 3.6rem 3.2rem;
+    transition: all 0.5s;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+header {
+    height: 10rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fefaee;
+    padding: 4.6rem 4.6rem;
+    position: relative;
+}
+
+/* banner section / hero section */
+
+.section-hero {
+    padding: 2rem 0;
+    background-color: #fefaee;
+}
+
+.hero {
+    margin:4rem 2rem;
+    max-width: 130rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    column-gap: 6.4rem;
+    padding: 0rem 2rem;
+
+}
+
+.hero-img-section {
+    overflow: hidden;
+}
+
+.hero-img {
+    width: 80%;
+    height: auto;
+    align-items: center;
+    border-radius: 2rem;
+    transition: transform 0.3s;
+}
+
+.hero-img:hover {
+    transform: scale(1.1);
+    border-radius: 2rem;
+}
+
+.primary-description {
+    font-size: 2rem;
+    line-height: 1.6;
+    margin-bottom: 5rem;
+}
+.hero-text-section{
+    width: 100%;
+}
+.hero-sub-section {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    align-items: center;
+    column-gap: 2rem;
+    padding: 0rem 1rem;
+
+}
+
+.delivery-img {
+    width: 80%;
+}
+
+
+/* categories section */
+.categories-section {
+    margin-top: 2rem;
+    background-color: #fefaee;
+}
+
+.categories-section-heading {
+    display: inline-block;
+    color: #e67e22;
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    letter-spacing: 0.2rem;
+
+}
+
+.categories-section-list {
+    max-width: 130rem;
+    /* 130 rem = 1300px */
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    column-gap: 2rem;
+    row-gap: 2rem;
+    padding: 0rem 2rem;
+    margin: 2rem;
+}
+
+.item-category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item-category-img {
+    overflow: hidden;
+    border-radius: 50%;
+    height: 22rem;
+    width: 22rem;
+    object-fit: cover;
+    border-width: 1rem;
+    border-style: solid;
+    border-color: #ffc324;
+
+}
+
+/* About us section */
+
+.aboutus-section {
+    margin-top: 10rem;
+}
+
+.aboutus-heading h3 {
+    display: inline-block;
+    color: #e67e22;
+    text-transform: uppercase;
+    font-size: 2.4rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.2rem;
+}
+
+.aboutus-heading-sub {
+    font-size: 1.8rem;
+    font-weight: 400;
+    margin: 2rem;
+    line-height: 1.6;
+}
+
+
+/* reviews section */
+
+.reviews-section {
+    margin-top: 10rem;
+}
+
+.reviews-main-heading h3 {
+    display: inline-block;
+    color: #e67e22;
+    text-transform: uppercase;
+    font-size: 2.4rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.2rem;
+
+}
+
+.slide-container {
+    max-width: 130rem;
+    padding: 2rem;
+    margin: 0 auto;
+}
+
+.slide-content {
+    margin: 0 4rem;
+    overflow: hidden;
+    border-radius: 2.5rem;
+}
+.swiper-slide{
+    height:60rem;
+}
+
+.card {
+    border-radius: 2.5rem;
+    background-color: #ffff;
+    border-color: #fb9d4b;
+    border-style: solid;
+    border-width: 0.2rem;
+}
+#card{
+    height:22.5rem;
+}
+
+/* .image-content, */
+.card-content {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    padding: 1rem 1.5rem;
+    margin: 2rem;
+}
+.rating{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+}
+.icon{
+    color:#ffc324;
+}
+
+.overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #ffc324;
+    border-radius: 25px 25px 0 25px;
+}
+
+.overlay::before,
+.overlay::after {
+    content: '';
+    position: absolute;
+    right: 0;
+    bottom: -40px;
+    height: 40px;
+    width: 40px;
+    background-color: #ffc324;
+}
+
+.overlay::after {
+    border-radius: 0 25px 0 0;
+    background-color: #FFF;
+}
+#swiper{
+    margin:2rem;
+}
+.swiper-pagination-bullet-active {
+    background-color: #e67e22 !important;
+}
+.name {
+    font-size: 2rem;
+    /* text-decoration: underline; */
+    font-weight: 500;
+    color: #333;
+    /* margin:1rem; */
+    padding: 1rem;
+}
+
+.description {
+    font-size: 1.5rem;
+    color: #707070;
+    text-align: left;
+    /* margin:1rem; */
+    padding: 1rem;
+}
+
+#swiper-navBtn {
+    color: #e67e22;
+}
+
+#swiper-pagination {
+    color: #e67e22;
+}
+
+
+.swiper-navBtn {
+    color: #e67e22;
+    transition: color 0.3s ease;
+}
+
+.swiper-navBtn:hover {
+    color: #e67e22;
+}
+
+.swiper-navBtn::before,
+.swiper-navBtn::after {
+    font-size: 3.5rem;
+}
+
+.swiper-button-next {
+    right: 0;
+}
+
+.swiper-button-prev {
+    left: 0;
+}
+
+.swiper-pagination-bullet {
+    background-color: #e67e22;
+    opacity: 1;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #e67e22;
+}
+
+@media screen and (max-width: 768px) {
+    .slide-content {
+        margin: 0 1rem;
+    }
+
+    .swiper-navBtn {
+        display: none;
+    }
+}
+
+
+
+/* Memberships section */
+.membership-section{
+    margin-top:10rem;
+}
+
+.membership-heading h3{
+    display: inline-block;
+    color: #e67e22;
+    text-transform: uppercase;
+    font-size: 2.4rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.2rem;
+}
+#membership-sub-heading{
+    font-size: 3rem;
+}
+.non-active{
+    color: grey;
+}
+
+.pricing-body{
+    padding: 8.4rem 12rem;
+    
+}
+.membership-cards-section{
+    display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10rem;
+  place-items: center;
+}
+.membership-card{
+    border: 2px solid #ffe7d3;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5.2rem;
+    padding: 4rem;
+    width:80%;
+}
+.active-membership-card{
+    border: 2px solid #ffe7d3;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5.2rem;
+    padding: 4rem;
+    width:50rem;
+}
+.active-memberships{
+    margin:3rem;
+}
+
+#tick{
+    color:#e67e22;
+    font-size: 2rem;
+}
+.membership-card h3{
+    text-transform: uppercase;
+    color: #f6790b;
+    font-size: 2.4rem;
+    margin-bottom: 2.4rem;
+}
+
+.active-membership-card h3{
+    text-transform: uppercase;
+    color: #f6790b;
+    font-size: 2.4rem;
+    margin-bottom: 2.4rem;
+}
+.money-card-heading{
+    width: 100%;
+    text-align: center;
+}
+
+.money{
+    font-size: 6.6rem;
+    margin: 1.8rem;
+    color: #333333;
+}
+ .money .rupee{
+    font-size: 3.6rem;
+ }
+.money-desc{
+    display: block;
+    font-size: 1.8rem;
+    
+}
+
+.money-attributes{
+    
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: auto;
+}
+#silver-card-heading{
+    /* font-family: 'Roboto', sans-serif; */
+    color: #080808;
+    background-color:rgb(216, 204, 204);
+    padding:0.5rem;
+}
+#gold-card-heading{
+    /* font-family: 'Roboto', sans-serif; */
+    color: #080808;
+    background-color:#e2ad13;
+    padding:0.5rem;
+}
+#diamond-card-heading{
+    /* font-family: 'Roboto', sans-serif; */
+    color: #e2ad13;
+    background-color:#aa6448;
+    padding:0.5rem;
+}
+#platinum-card-heading{
+    /* font-family: 'Roboto', sans-serif; */
+    color: #e2ad13;
+    background-color:#000000;
+    padding:0.5rem;
+}
+
+
+.money-attribute{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.money-attribute ion-icon{
+    font-size: 3.6rem;
+    color: #f6790b;
+    
+    
+}
+
+.money-attribute span{
+    font-size: 2rem;
+}
+
+.membership-card a{
+    font-size: 2.2rem;
+    padding: 1.6rem 1.8rem;
+    border-radius: 10px;
+    transition: all 0.5s;
+    overflow: hidden;
+}
+
+.membership-card a:hover{
+    background-color: #40c057;
+}
+
+
+
+/* footer section */
+
+.footer-grid-section{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    margin:3rem
+}
+.footer-theme{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:2rem;
+    line-height: 1.6;
+}
+
+.contact-section h3{
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+.contact-section p{
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+.whatsapp-icon{
+    font-size: 2.5rem;
+    color: #5df378;
+}
+.open-hours-section h3{
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+.open-hours-section p{
+    font-size: 1.5rem;
+    /* text-decoration: underline; */
+    text-align: center;
+}
+.company-info-social-media{
+    display:flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.company-info-social-media i{
+    font-size: 2.8rem;
+    padding: 1rem;
+    color: #888;
+    margin-top: 2rem;
+}
+
+/* styling floating whatsapp icon to order  */
+.whatsapp-link {
+    position: fixed;
+    z-index: 10;
+    bottom: 20px; /* Distance from the bottom */
+    right: 20px; /* Distance from the right */
+    display: flex;
+    align-items: center;
+    background-color: #25D366; /* WhatsApp green */
+    color: white;
+    padding: 10px;
+    border-radius: 50px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.whatsapp-link img {
+    width: 30px; /* Icon size */
+    margin-right: 8px;
+    animation: bouncy 1.5s ease-in-out infinite;
+}
+
+.whatsapp-link span {
+    font-weight: bold;
+}
+
+.whatsapp-link:hover {
+    background-color: #1ebe5f; /* A darker green on hover */
+}
+.floating-label{
+    font-size: 1.5rem;
+    padding:0.5rem;
+}
+
+@keyframes bouncy {
+    0%, 100% {
+        transform: scale(1);
+        transform-origin: center bottom;
+    }
+    25% {
+        transform: scale(1.2);
+        transform-origin: center bottom;
+    }
+    50% {
+        transform: scale(0.8);
+        transform-origin: center bottom;
+    }
+    75% {
+        transform: scale(1.1);
+        transform-origin: center bottom;
+    }
+}
+
+@media (max-width: 600px) {
+    .whatsapp-link {
+        bottom: 10px;
+        right: 10px;
+        padding: 8px;
+    }
+
+    .whatsapp-link img {
+        width: 24px;
+    }
+}
+
+
